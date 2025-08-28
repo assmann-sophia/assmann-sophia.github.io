@@ -1,0 +1,225 @@
+/* MAIN CONTAINERS*/
+.Top-container {
+    gap: 6%;
+    display: flex;
+    background-color: #19A7CE;
+    color: #F6F1F1;
+    font-size: 180%;
+    padding: 0;  
+
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+}
+.box {
+    width: fit-content;
+    height: fit-content;
+}
+.Middle-container {
+    background-color: #F6F1F1;
+    font-family: 'monofett-regular', monospace;
+    font-size: 120%;
+    line-height: 120%;
+    padding: 0.5% 0;
+    margin-top: 0.5%;
+    left: 0;
+    top: 29%;
+    position:absolute;
+    width: 100%;
+}
+.Bottom-container {
+    background-color: #F6F1F1;
+    color: black;
+
+    text-align: center;
+    font-family: 'monofett-regular', monospace;
+    font-size: 100%;
+
+    padding: 0.5%;
+    position: relative;
+    margin: 22.5% 20% 0 20%;
+    width: 60%;
+
+    border-radius: 20px;
+    border-color: #19A7CE;
+    border-style: solid;
+    border-width: 4px;
+
+  
+}
+.Bottom-container1{
+    background-color: #F6F1F1;
+    color: black;
+
+    text-align: center;
+    font-family: 'monofett-regular', monospace;
+    font-size: 100%;
+
+    padding: 0.5% 1% 0.5% 1%;
+    position: relative;
+    margin: 20% 20% 0 20%;
+    width: 60%;
+    column-gap: 10%;
+
+    border-radius: 20px;
+    border-color: #19A7CE;
+    border-style: solid;
+    border-width: 4px;
+
+    
+}
+.Bottom-container2, .Bottom-container3 {
+    background-color: #F6F1F1;
+    color: black;
+
+    text-align: left;
+    font-family: 'monofett-regular', monospace;
+    font-size: 100%;
+
+    padding: 0.5% 0% 0.5% 2%;
+    position: relative;
+    margin: 1.5% 20% 1% 20%;
+    width: 60%;
+
+    border-radius: 20px;
+    border-color: #19A7CE;
+    border-style: solid;
+    border-width: 4px;
+    
+}
+.Bottom-container4 {
+    background-color: #F6F1F1;
+    color: black;
+
+    text-align: left;
+    font-family: 'monofett-regular', monospace;
+    font-size: 100%;
+
+    padding: 0.5% 2% 0.5% 2%;
+    position: relative;
+    margin: 1% 24% 4% 24%;
+    width: 50%;
+
+    border-radius: 20px;
+    border-color: #19A7CE;
+    border-style: solid;
+    border-width: 4px;
+    
+}
+.Bottom-container5 {
+    background-color: #F6F1F1;
+    color: black;
+
+    text-align: left;
+    font-family: 'monofett-regular', monospace;
+    font-size: 100%;
+
+    padding: 0.5% 0% 0.5% 2%;
+    position: relative;
+    margin: 20% 20% 0% 20%;
+    width: 60%;
+
+    border-radius: 20px;
+    border-color: #19A7CE;
+    border-style: solid;
+    border-width: 4px;
+    
+}
+body {
+    background-color: rgb(28, 28, 28);
+    color: #d8d8d8;
+    font-family: 'monofett-regular', monospace;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #19A7CE;
+    color: #F6F1F1;
+    text-align: center;
+    font-family: 'monofett-regular', monospace;
+    font-size: 90%;  
+    width: 100%; 
+    position: relative;
+
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+}
+/**************************************************/
+/* IMAGES */
+.orca-image {
+    width: 250px;
+    height: auto;
+    margin: 0 0 0 30%;
+}
+.half-orca-image {
+    width: 10%;
+    height: auto;
+    position:relative;
+    
+    margin-left: 80%;
+}
+.poster-image {
+  width: 50%;
+  height: auto;
+  margin: 20% 25%  0 26%;
+  position: center;
+  border-radius: 10px;
+}
+.orca-cauda-image {
+    width: 12.5%;
+    height: auto;
+    margin: 0 0 0 45%;
+    position: relative;
+}
+
+
+/**************************************************/
+/* OTHER ELEMENTS */
+h1 {
+    font-family: 'monofett-regular', monospace;
+    text-shadow: #146C94 2px 2px 4px;
+    margin-top: 10%;
+    
+}
+a {
+    margin: 0 9.5%;
+    color: black;
+    text-decoration: none;
+    
+}
+.menu-on-page {
+    margin: 0 9.5%;
+    color: #19A7CE;
+    text-decoration: none;
+}
+a:hover {
+    color: #19A7CE;
+}
+
+.Bottom-container3 ul li {
+    margin-bottom: 1em; /* Adds space below each list item */
+}
+.Bottom-container5 ul li {
+    margin-bottom: 1em; /* Adds space below each list item */
+    width: 95%;
+}
+.poster-source {
+    text-align: center;
+    margin:0;
+}
+/**************************************************/
+/* Fontes importadas do Google Fonts */
+
+.monofett-regular {
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/**************************************************/
