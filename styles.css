@@ -218,6 +218,12 @@ a {
         gap: 1%;
         padding: 2% 0;
     }
+    .orca-cauda-image{
+        width: 25%;
+        height: auto;
+        margin: 0 0 0 35%;
+        position: relative;
+    }
 }
 
 
@@ -252,6 +258,7 @@ a:hover {
 
 
 /**************************************************/
+
 
 
 
