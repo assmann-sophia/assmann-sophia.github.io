@@ -205,7 +205,7 @@ a {
         text-decoration: none;
     }
     .orca-image {
-        width: 150px;
+        width: 75px;
         height: fit-content;
         position: static;
         display: inline-block;
@@ -246,3 +246,4 @@ a:hover {
 
 
 /**************************************************/
+
