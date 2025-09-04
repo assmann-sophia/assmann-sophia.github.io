@@ -22,6 +22,18 @@
         <a class="menu" href="ecotypes.html">Ecotypes</a>
         <a class="menu-on-page" href="">Books</a>
     </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <div id="stackMenu" class="stack">
+    <a href="index.html">Home</a>
+    <a href="basics.html">Basics</a>
+    <a href="ecotypes.html">Ecotypes</a>
+    <a href="">Books</a>
+    </div>
+    <script>
+    function toggleMenu() {
+      document.getElementById("stackMenu").classList.toggle("active");
+    }
+    </script>
     <div class="Bottom-container5">
         <h4>Recommended Books about Orcas:</h4>
         <ul>
@@ -44,4 +56,5 @@
         <p>&copy; 2025 Orcinus Orca</p>
     </footer>
 </body>
+
 </html>
