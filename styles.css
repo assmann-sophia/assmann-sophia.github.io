@@ -279,7 +279,7 @@ a:hover {
     }
     .Bottom-container, .Bottom-container1, .Bottom-container2, .Bottom-container3, .Bottom-container4, .Bottom-container5 {
         width: 90%;
-        margin: 20px 5% 2% 5%;
+        margin: 20px 5%  0  5%;
         font-size: 90%;
         padding: 2% 2% 2% 2%;
   }
@@ -329,6 +329,7 @@ a:hover {
 }
 
 /**************************************************/
+
 
 
 
