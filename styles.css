@@ -141,7 +141,7 @@ footer {
     font-family: 'monofett-regular', monospace;
     font-size: 90%;  
     width: 100%; 
-    position: relative;
+    position: absolute;
 
     padding-bottom: 0.5%;
     padding-top: 0.5%;
@@ -317,6 +317,7 @@ a:hover {
 }
 
 /**************************************************/
+
 
 
 
