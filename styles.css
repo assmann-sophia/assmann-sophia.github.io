@@ -262,7 +262,7 @@ a:hover {
     }
     .orca-image {
         width: 200px;
-        height: fit-content;
+        height: 160px;
         position: static;
         display: inline-block;
         margin: 0 0% 0 2%;
@@ -338,6 +338,7 @@ a:hover {
 }
 
 /**************************************************/
+
 
 
 
