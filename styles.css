@@ -261,12 +261,25 @@ a:hover {
         
     }
     .orca-image {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: fit-content;
         position: static;
         display: inline-block;
         margin: 0 0% 0 2%;
         padding: 0%;
+    }
+    .orca-cauda-image{
+        width: 25%;
+        height: auto;
+        margin: 0 0 0 37.5%;
+        position: relative;
+    }
+    .half-orca-image {
+        width: 20%;
+        height: auto;
+        position:relative;
+        
+        margin-left: 70%;
     }
     .Top-container{
         flex-direction: column;
@@ -277,39 +290,35 @@ a:hover {
     .Middle-container{
         display:none;
     }
-    .Bottom-container, .Bottom-container1, .Bottom-container2, .Bottom-container3, .Bottom-container4, .Bottom-container5 {
-        width: 90%;
-        margin: 20px 5%  0  5%;
-        font-size: 90%;
-        padding: 2% 2% 2% 2%;
-  }
-    .orca-cauda-image{
-        width: 25%;
-        height: auto;
-        margin: 0 0 0 35%;
-        position: relative;
+   
+    .menu-icon {
+       display: block; /* show hamburger */
+      font-size: 28px;
+      cursor: pointer;
+      padding: 0.5% 4%;
+      color: #19A7CE;
+      background-color: #F6F1F1;
+      margin: 0;
+
     }
-      .Middle-container {
-    display: none; /* hide horizontal menu */
+
+    .stack {
+     display: none; /* hidden until toggled */
+    }
+
+    .stack.active {
+      display: flex;
+    }
+
+  .Bottom-container, .Bottom-container1, .Bottom-container2, .Bottom-container3, .Bottom-container4, .Bottom-container5 {
+    width: 90%;
+    margin: 20px 5%  0  5%;
+    font-size: 90%;
+    padding: 2% 0 2% 0;
   }
-
-  .menu-icon {
-    display: block; /* show hamburger */
-    font-size: 28px;
-    cursor: pointer;
-    padding: 0.5% 4%;
-    color: #19A7CE;
-    background-color: #F6F1F1;
-    margin: 0 0 0 0;
-
-  }
-
-  .stack {
-    display: none; /* hidden until toggled */
-  }
-
-  .stack.active {
-    display: flex;
+  .footer {
+    font-size: 70%;
+    padding: 1% 0;
   }
 }
 /**************************************************/
@@ -329,6 +338,7 @@ a:hover {
 }
 
 /**************************************************/
+
 
 
 
