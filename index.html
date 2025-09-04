@@ -25,6 +25,18 @@
         <a class="menu" href="ecotypes.html">Ecotypes</a>
         <a class="menu" href="books.html">Books</a>
     </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <div id="stackMenu" class="stack">
+    <a href="">Home</a>
+    <a href="basics.html">Basics</a>
+    <a href="ecotypes.html">Ecotypes</a>
+    <a href="books.html">Books</a>
+    </div>
+    <script>
+    function toggleMenu() {
+      document.getElementById("stackMenu").classList.toggle("active");
+    }
+    </script>
     <div class="Bottom-container">
         <h4>Welcome to the Orcinus Orca Project!</h4>
         <p>Explore the fascinating world of orcas, their behaviors, and the different ecotypes that make them unique.</p>
@@ -36,4 +48,5 @@
         <p>&copy; 2025 Orcinus Orca</p>
     </footer>
 </body>
+
 </html>
