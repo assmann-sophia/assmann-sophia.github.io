@@ -22,16 +22,24 @@
         <a class="menu" href="ecotypes.html">Ecotypes</a>
         <a class="menu-on-page" href="">Books</a>
     </div>
-    <div class="menu-icon" onclick="toggleMenu()">☰</div>
-    <div id="stackMenu" class="stack">
-    <a href="index.html">Home</a>
-    <a href="basics.html">Basics</a>
-    <a href="ecotypes.html">Ecotypes</a>
-    <a href="">Books</a>
+
+    <div class="background-menu"></div>
+    <div class="menu-wrapper">
+        
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        
+        <div id="stackMenu" class="stack">
+        
+        <a href="index.html">Home</a>
+        <a href="basics.html">Basics</a>
+        <a href="ecotypes.html">Ecotypes</a>
+        <a href="books.html">Books</a>
+        </div>
     </div>
     <script>
     function toggleMenu() {
       document.getElementById("stackMenu").classList.toggle("active");
+      document.querySelector(".menu-icon").classList.toggle("active");
     }
     </script>
     <div class="Bottom-container5">
@@ -56,5 +64,4 @@
         <p>&copy; 2025 Orcinus Orca</p>
     </footer>
 </body>
-
 </html>

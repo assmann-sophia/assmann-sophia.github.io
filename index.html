@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+    </style>
+
     <title>Orcinus Orca </title>
 </head>
 <body>
@@ -25,16 +30,24 @@
         <a class="menu" href="ecotypes.html">Ecotypes</a>
         <a class="menu" href="books.html">Books</a>
     </div>
-    <div class="menu-icon" onclick="toggleMenu()">☰</div>
-    <div id="stackMenu" class="stack">
-    <a href="">Home</a>
-    <a href="basics.html">Basics</a>
-    <a href="ecotypes.html">Ecotypes</a>
-    <a href="books.html">Books</a>
+    <div class="background-menu"></div>
+    <div class="menu-wrapper">
+        
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        
+        <div id="stackMenu" class="stack">
+        
+        <a href="index.html">Home</a>
+        <a href="basics.html">Basics</a>
+        <a href="ecotypes.html">Ecotypes</a>
+        <a href="books.html">Books</a>
+        </div>
     </div>
+    
     <script>
     function toggleMenu() {
       document.getElementById("stackMenu").classList.toggle("active");
+      document.querySelector(".menu-icon").classList.toggle("active");
     }
     </script>
     <div class="Bottom-container">
@@ -48,5 +61,4 @@
         <p>&copy; 2025 Orcinus Orca</p>
     </footer>
 </body>
-
 </html>
