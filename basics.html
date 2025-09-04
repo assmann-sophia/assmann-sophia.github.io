@@ -22,6 +22,18 @@
         <a class="menu" href="ecotypes.html">Ecotypes</a>
         <a class="menu" href="books.html">Books</a>
     </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <div id="stackMenu" class="stack">
+    <a href="index.html">Home</a>
+    <a href="">Basics</a>
+    <a href="ecotypes.html">Ecotypes</a>
+    <a href="books.html">Books</a>
+    </div>
+    <script>
+    function toggleMenu() {
+      document.getElementById("stackMenu").classList.toggle("active");
+    }
+    </script>
     <div class="Bottom-container1">
         <h4>What are orcinus orcas?</h4>
        <p>Orcinus orca, commonly known as the killer whale or orca, is a toothed whale belonging to the oceanic dolphin family, Delphinidae. They are highly social animals, often living in complex social structures known as pods. Orcas are apex predators, meaning they have no natural predators and are at the top of their food chain.</p>
@@ -58,4 +70,5 @@
         <p>&copy; 2025 Orcinus Orca</p>
     </footer>
 </body>
+
 </html>
