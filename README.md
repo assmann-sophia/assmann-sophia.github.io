@@ -1,4 +1,4 @@
-# Electronics diy website
+# Electronics DIY website
 
 Hey! Nice to see you here :)
 This repo is dedicated to my website which you can access with this link:
