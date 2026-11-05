@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;/Contact&gt; - Sophia Assmann</title>
+    
+    <!-- Import JetBrains Mono Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Configuration for Tokyo Night Theme -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#1a1b26',
+                        accent: '#7aa2f7',
+                        mainText: '#a9b1d6',
+                        headingText: '#c0caf5',
+                        cardBg: '#24283b',
+                        placeholder: '#2f354d'
+                    },
+                    fontFamily: {
+                        sans: ['"JetBrains Mono"', 'monospace'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #1a1b26; 
+            color: #a9b1d6;
+            font-size: 16px;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="bg-background text-mainText font-sans min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="border-b-2 border-accent/80 relative z-50">
+        <div class="max-w-[1000px] mx-auto px-6 py-6 flex justify-between items-center">
+            <a href="main.html" class="text-headingText font-semibold text-xl tracking-wide hover:text-accent transition-colors duration-300">
+              &lt;/Sophia Assmann&gt;  
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-headingText hover:text-accent focus:outline-none transition-colors">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+            <!-- Navigation Menu -->
+            <nav id="nav-menu" class="hidden md:flex absolute md:relative top-full left-0 w-full md:w-auto bg-background md:bg-transparent border-b-2 border-accent/80 md:border-none flex-col md:flex-row gap-6 text-sm font-medium p-6 md:p-0">
+                <a href="main.html" class="hover:text-accent hover:-translate-y-0.5 transition-all duration-300">Home</a>
+                <a href="about_me.html" class="hover:text-accent hover:-translate-y-0.5 transition-all duration-300">About me</a>
+                <a href="#" class="hover:text-accent hover:-translate-y-0.5 transition-all duration-300">Projects</a>
+                <a href="contact.html" class="text-accent hover:-translate-y-0.5 transition-all duration-300">Let's get in touch!</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow max-w-[1000px] mx-auto px-6 w-full flex flex-col gap-12 py-16">
+        
+        <!-- Page Title -->
+        <section class="space-y-4">
+            <h1 class="text-3xl md:text-4xl font-bold text-accent tracking-tight">
+                &lt;/Let's get in touch!&gt;
+            </h1>
+            <p class="text-lg text-headingText leading-relaxed max-w-2xl">
+                Whether you have a question about my projects, want to collaborate on something cool, or just want to say hi, my inbox is open!
+            </p>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-10 items-start">
+            
+            <!-- Side Info Card -->
+            <div class="space-y-6">
+
+                <!-- Social Links -->
+                <div class="bg-cardBg p-6 rounded-2xl border border-white/5 shadow-md flex flex-col gap-4">
+                    <h3 class="text-lg font-bold text-headingText border-b border-white/10 pb-2">Connect</h3>
+                    
+                    <a href="https://github.com/assmann-sophia" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 group hover:text-accent transition-colors duration-300">
+                        <svg class="w-5 h-5 group-hover:-translate-y-0.5 transition-transform" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                        </svg>
+                        <span class="text-sm font-medium">GitHub</span>
+                    </a>
+
+                    <a href="mailto:assmann@usp.br" class="flex items-center gap-3 group hover:text-accent transition-colors duration-300">
+                        <svg class="w-5 h-5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        <span class="text-sm font-medium">Email Me</span>
+                    </a>
+                </div>
+                <!-- Location Info -->
+                <div class="bg-cardBg p-6 rounded-2xl border border-white/5 shadow-md flex flex-col gap-2">
+                    <h3 class="text-lg font-bold text-headingText">Location</h3>
+                    <p class="text-sm">São Paulo, Brazil</p>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t-2 border-accent/80 mt-auto">
+        <div class="max-w-[1000px] mx-auto px-6 py-12 flex justify-center">
+            <p class="text-xs text-mainText/40">&copy; 2026 Sophia Assmann. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+        });
+    </script>
+</body>
+</html>
