@@ -1,1 +1,1 @@
-# assmann-sophia.gitbub.io
+# assmann-sophia.github.io
